@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-title {
+    color: rgb(211	64	110);
+    text-align: center;
+    padding: 2rem;
+}
+
+.container {
+    width: 920px;
+    margin: auto;
+}
+
+.container p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    background-color: rgb(15, 14,	22);
+    color: white;
+    width: calc(33.3% - (2rem / 3));
+    margin-right: 1rem;
+    float:left;
+    box-shadow: 0px 0px 30px -10px rgb(15, 14,	22);
+}
+
+.card:nth-child(3n+0) {
+    margin-right: 0;
+}
+  
+.card img {
+    width: 30%;
+    float: left;
+}
+
+.card-text{
+    float: left;
+    width: 70%;
+    padding: 0.5rem 0.5rem;
+}
+
+.card-text > h5 {
+    padding: 0.5rem 0;
+}
+
+.card-text a {
+    color: rgb(115, 189, 217);
+}
+
+.row:first-of-type {
+    margin-bottom: 2rem;
+}
